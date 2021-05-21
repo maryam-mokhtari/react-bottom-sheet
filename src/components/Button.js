@@ -4,21 +4,17 @@ import localeText from '../utils/locale.js'
 import themeColors from '../utils/theme';
 
 const Button = ({
-  text = localeText().SUBMIT, icon, loading, isDisabled, isInvert, onClick, color = "cyan"
+  text, icon, loading, isDisabled, isInvert, onClick, color = "cyan"
 }) =>
   <button
-    className={`
-      button 
-      ${loading ? 'button--loading' : ''}
-      ${isInvert ? `button--invert` : ''}
-      ${isDisabled ? `button--disabled` : ''}
-    `}
+    className={`button ${loading ? 'button--loading' : ''} ${isInvert ? `button--invert` : ''} ${isDisabled ? `button--disabled` : ''}`}
     style={
       isInvert ? {
         color: themeColors[color] || color,
         borderColor: themeColors[color] || color,
       } : {
         backgroundColor: themeColors[color] || color,
+        borderColor: themeColors[color] || color,
       }}
     disabled={loading || isDisabled}
     onClick={loading || isDisabled ? undefined : onClick}

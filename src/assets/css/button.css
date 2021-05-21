@@ -10,12 +10,8 @@
   user-select: none;
   font-weight: bold;
   outline: none;
-}
-
-.icon {
-  width: 24px;
-  height: 24px;
-  margin: auto 4px;
+  border: 1px solid #ccc;
+  color: #fff;
 }
 
 .button__icon {
