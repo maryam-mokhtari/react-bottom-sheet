@@ -58,14 +58,10 @@
   line-height: 23px;
   margin: auto;
   flex: 1;
-  display: flex;
-  justify-content: center;
-  overflow: hidden;
-}
-
-.bottom-sheet .container .inner-container {
   padding: 16px;
-  width: 100%;
+}
+.bottom-sheet .container.overflow {
+  overflow-y: auto;
 }
 
 .bottom-sheet .bottom-button-container {
@@ -75,10 +71,10 @@
   justify-content: center;
   width: 100%;
 }
-.bottom-sheet .bottom-button-container > div:first-child:not(:last-child) {
+.bottom-sheet .bottom-button-container > :first-child:not(:last-child) {
   margin-left: 5px;
 }
-.bottom-sheet .bottom-button-container > div:last-child:not(:first-child) {
+.bottom-sheet .bottom-button-container > :last-child:not(:first-child) {
   margin-right: 5px;
 }
 .bottom-sheet .bottom-button-container > * {
@@ -87,7 +83,7 @@
 }
 
 
-.bottom-sheet .container .inner-container .title {
+.bottom-sheet .container .title {
   direction: rtl;
   align-items: center;
   justify-content: flex-start;
@@ -99,46 +95,46 @@
   padding: 5px 0;
 }
 
-.bottom-sheet .container .inner-container .title-icon {
+.bottom-sheet .container .title-icon {
   margin-left: 5px;
 }
 
-.bottom-sheet .container .inner-container .image {
+.bottom-sheet .container .image {
   width: 90%;
 }
 
-.bottom-sheet .container .inner-container .description {
+.bottom-sheet .container .description {
   padding: 15px 0 30px;
   color: #777;
   font-size: 0.85rem;
   white-space: pre-line;
 }
 
-.bottom-sheet .container .inner-container .icon {
+.bottom-sheet .container .icon {
   width: 30px;
   height: 30px;
   margin-left: 10px;
 }
-.bottom-sheet .container .inner-container .icon.gray {
+.bottom-sheet .container .icon.gray {
   filter: grayscale(1) brightness(.5);
 }
 
-.bottom-sheet .container .inner-container .box {
+.bottom-sheet .container .box {
   display: flex;
   width: 100%;
   align-items: center;
 }
 
-.bottom-sheet .container .inner-container .arrow {
+.bottom-sheet .container .arrow {
   cursor: pointer;
 }
 
-.bottom-sheet .container .inner-container .divider {
+.bottom-sheet .container .divider {
   border: 1px solid #eee;
   margin: 10px 0;
 }
 
-.bottom-sheet .container .inner-container .hint {
+.bottom-sheet .container .hint {
   background-color: #f5f5f5;
   padding: 10px;
   border-radius: 5px;
