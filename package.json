@@ -1,0 +1,58 @@
+{
+  "name": "react-bottom-sheet",
+  "version": "1.0.0",
+  "author": {
+    "name": "Maryam Mokhtari",
+    "email": "maryam.mokhtari@gmail.com"
+  },
+  "license": "MIT",
+  "description": "React Bottom sheet simulates iOS Bottom sheet for Progressive Web Applications. (PWA)",
+  "keywords": [
+    "PWA",
+    "Progressive Web Application",
+    "React",
+    "React Bottom sheet",
+    "React BottomSheet"
+  ],
+  "homepage": "https://github.com/mayyamak/react-bottom-sheet",
+  "bugs": {
+    "url": "https://github.com/mayyamak/react-bottom-sheet/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mayyamak/react-bottom-sheet.git"
+  },
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "4.0.3",
+    "web-vitals": "^1.0.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
