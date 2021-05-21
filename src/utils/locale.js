@@ -1,4 +1,28 @@
 const text = {
+  SUBMIT: {
+    FA: 'ثبت',
+    EN: '',
+  },
+  CANCEL: {
+    FA: 'انصراف',
+    EN: '',
+  },
+  UNDERSTOOD: {
+    FA: 'متوجه شدم',
+    EN: '',
+  },
+  CONFIRMATION: {
+    FA: 'شارژ کیف پول',
+    EN: '',
+  },
+  CONFIRMATION_DESCRIPTION: {
+    FA: 'شارژ کیف پول انجام خواهد شد. آیا مطمئن هستید؟',
+    EN: '',
+  },
+  WALLET_CHARGE: {
+    FA: 'شارژ کیف پول',
+    EN: '',
+  }
 }
 
 const Capitalize =  textString => textString[0].toUpperCase() + textString.substr(1).toLowerCase()

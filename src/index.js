@@ -2,11 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './assets/css/index.css';
 import BottomSheet from './components/BottomSheet';
-import ConfirmBottomSheet from './example/ConfirmBottomSheet';
+import ChargeWallet from './example/ChargeWallet';
 
 ReactDOM.render(
   <React.StrictMode>
-    <ConfirmBottomSheet />
+    <ChargeWallet />
   </React.StrictMode>,
   document.getElementById('root')
 );
