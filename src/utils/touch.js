@@ -1,4 +1,4 @@
-export default e => {
+export const getTouch = e => {
   e = e || window.event
   const touch = (e.originalEvent && e.originalEvent.touches[0]) ||
     (e.originalEvent && e.originalEvent.changedTouches[0]) ||
@@ -6,3 +6,5 @@ export default e => {
   // e.preventDefault()
   return touch
 }
+
+export default getTouch
