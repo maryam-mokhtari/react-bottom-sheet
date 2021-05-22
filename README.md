@@ -129,5 +129,7 @@ The build is minified and the filenames include the hashes.
 
 ## Author
 Maryam Mokhtari 
+
 Github:[@mayyamak](https://github.com/mayyamak) 
+
 Email: [maryam.mokhtari@gmail.com](mailto:maryam.mokhtari@gmail.com)
