@@ -5,12 +5,14 @@ import LocaleText from '../utils/locale';
 import getTouch from '../utils/touch';
 import { thresholds } from '../utils/thresholds';
 import { iOSVersion, isSafari } from '../utils/ios';
+import submitIcon from '../assets/icons/done.svg';
+import cancelIcon from '../assets/icons/cancel.svg';
 
 const BottomSheet = ({
   id,
   isOpen, onClose,
-  hasDimmer,
-  isDismissibleOnTouchDown,
+  hasDimmer = true,
+  isDismissibleOnTouchDown = true,
   children,
   submit, cancel, color,
   className,
@@ -176,7 +178,7 @@ const BottomSheet = ({
                   onClick={submitClick}
                   text={submit.text || LocaleText().SUBMIT}
                   isDisabled={submit.isInactive}
-                  icon={submit.icon}
+                  icon={submit.hasIcon && submitIcon}
                 />
               }
               {cancel &&
@@ -185,7 +187,7 @@ const BottomSheet = ({
                   isInvert
                   onClick={cancelClick}
                   text={cancel.text || LocaleText().CANCEL}
-                  icon={cancel.icon}
+                  icon={cancel.hasIcon && cancelIcon}
                 />
               }
             </div>

@@ -1,30 +1,26 @@
 import BottomSheet from "../components/BottomSheet";
 import LocaleText from '../utils/locale';
 import walletIcon from '../assets/icons/wallet.svg';
-import submitIcon from '../assets/icons/done.svg';
-import cancelIcon from '../assets/icons/cancel.svg';
 
-const ConfirmBottomSheet = ({ isOpen, onClose, onSubmit, loading, title, description, }) => (
+const ConfirmBottomSheet = ({ isOpen, onClose, onSubmit, loading, title, description, hasIcon = true }) => (
   <BottomSheet
-    id='GPS'
+    id='confirm'
     isOpen={isOpen}
     onClose={onClose}
     submit={{
-      text: LocaleText().UNDERSTOOD,
+      text: LocaleText().YES,
       handler: onSubmit,
       isLoading: loading,
       hasWaitOnLoading: true,
-      icon: submitIcon,
+      hasIcon
     }}
     cancel={{
-      icon: cancelIcon,
+      text: LocaleText().NO,
+      hasIcon
     }}
-    isExpandable
-    isDismissibleOnTouchDown
-    hasDimmer
   >
     <div className="box">
-      <img className="icon" src={walletIcon} alt="GPS Location" />
+      <img className="icon" src={walletIcon} alt="Confirmation" />
       <div className="title">
         {title || LocaleText().CONFIRMATION}
       </div>

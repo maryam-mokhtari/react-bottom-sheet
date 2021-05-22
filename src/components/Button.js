@@ -21,14 +21,14 @@ const Button = ({
     {text}
     {loading &&
       <img
-        className="icon"
+        className="icon button__icon"
         alt={text}
         src={loadingIcon}
       />
     }
     {icon && !loading &&
       <img
-        className="icon"
+        className="icon button__icon"
         alt={text}
         src={icon}
       />

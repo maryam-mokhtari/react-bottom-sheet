@@ -26,7 +26,15 @@ const text = {
   TOMAN: {
     FA: 'تومان',
     EN: '',
-  }
+  },
+  YES: {
+    FA: 'بله',
+    EN: '',
+  },
+  NO: {
+    FA: 'خیر',
+    EN: '',
+  },
 }
 
 const Capitalize =  textString => textString[0].toUpperCase() + textString.substr(1).toLowerCase()
