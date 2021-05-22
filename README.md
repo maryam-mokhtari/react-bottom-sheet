@@ -3,7 +3,7 @@
 This project is mainly developed to simulate a native bottom sheet with high performance and smooth animations for Progressive Web Applications.
 
 ## Demo
-![]()
+![](https://raw.githubusercontent.com/mayyamak/react-bottom-sheet/master/src/images/Demo.gif)
 ## Usage
 
 In the project directory, you can use the following commands:
