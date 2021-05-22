@@ -77,7 +77,7 @@ There are default values for both buttons so if you just want to have it with it
 .
 </BottomSheet>
 ```
-![](https://raw.githubusercontent.com/mayyamak/react-bottom-sheet/master/src/images/simple.gif)
+![](https://raw.githubusercontent.com/mayyamak/react-bottom-sheet/master/src/images/simple.png)
 #### Button Color
 There are eight provided theme colors:
   - red
@@ -91,16 +91,13 @@ There are eight provided theme colors:
   
  These are themes and designs for the colors while any new colors can be used by its own color code or name.
  
-![](https://raw.githubusercontent.com/mayyamak/react-bottom-sheet/master/src/images/green.gif)
-![](https://raw.githubusercontent.com/mayyamak/react-bottom-sheet/master/src/images/cyan.gif)
-![](https://raw.githubusercontent.com/mayyamak/react-bottom-sheet/master/src/images/blue.gif)
-![](https://raw.githubusercontent.com/mayyamak/react-bottom-sheet/master/src/images/black.gif)
+![](https://raw.githubusercontent.com/mayyamak/react-bottom-sheet/master/src/images/green.png)
+![](https://raw.githubusercontent.com/mayyamak/react-bottom-sheet/master/src/images/cyan.png)
+![](https://raw.githubusercontent.com/mayyamak/react-bottom-sheet/master/src/images/blue.png)
+![](https://raw.githubusercontent.com/mayyamak/react-bottom-sheet/master/src/images/black.png)
 
 #### Button Icon
 Botton Icon can be used or dropped whose parameter is provided in `hasIcon` parameter.
-
-![](https://raw.githubusercontent.com/mayyamak/react-bottom-sheet/master/src/images/icony.gif)
-![](https://raw.githubusercontent.com/mayyamak/react-bottom-sheet/master/src/images/noicon.gif)
 
 #### Button Loading
 `hasWaitOnLoading` is utilized to keep the BottomSheet open in loading state and is true by default. You can drop it if you want the BottomSheet to be closed immediately.
