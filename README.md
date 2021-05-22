@@ -40,7 +40,7 @@ Let's have a look at the structured prepared in `ConfirmBottomSheet`:
 </BottomSheet>
 ```
 ### isOpen, onClose
-There are two imprtant properties in the `BottomSheet` structure stablishing the main charasteristics of opening and closing the bottomsheet especially its *Animation*.
+There are two important properties in the `BottomSheet` structure establishing the main characteristics of opening and closing the bottomsheet especially its *Animation*.
 Have a look at the `example/ChargeWallet`:
 ```React
   <ConfirmBottomSheet
@@ -53,7 +53,7 @@ Have a look at the `example/ChargeWallet`:
   const [isConfirmed, setIsConfirmed] = useState()
 ```
 ### submit, cancel
-Although any `jsx` elements including buttons can be added to `children` part of the `BottomSheet`, these two buttons with their specil properties help the component to have a better and smoother action considering its loading and closing with suitable animation.
+Although any `jsx` elements including buttons can be added to `children` part of the `BottomSheet`, these two buttons with their special properties help the component to have a better and smoother action considering its loading and closing with suitable animation.
 Consider the BottomSheet Button properties:
 - `text`
 - `hasIcon`
@@ -97,7 +97,7 @@ There are eight provided theme colors:
 ![](https://raw.githubusercontent.com/mayyamak/react-bottom-sheet/master/src/images/black.png)
 
 #### Button Icon
-Botton Icon can be used or dropped whose parameter is provided in `hasIcon` parameter.
+Button Icon can be used or dropped whose parameter is provided in `hasIcon` parameter.
 
 #### Button Loading
 `hasWaitOnLoading` is utilized to keep the BottomSheet open in loading state and is true by default. You can drop it if you want the BottomSheet to be closed immediately.
@@ -105,7 +105,7 @@ Botton Icon can be used or dropped whose parameter is provided in `hasIcon` para
 ### hasDimmer, isDismissibleOnTouchDown
  `hasDimmer` and `isDismissibleOnTouchDown` are true by default. 
  `hasDimmer` utilizes a dimming effect on `BottomSheet` shown.
- `isDismissibleOnTouchDown` utilizes a behavior when iOS user thouch down the `BottomSheet` to dismiss it.
+ `isDismissibleOnTouchDown` utilizes a behavior when iOS user touches down the `BottomSheet` to dismiss it.
 
 ## Commands
 In the project directory, you can use the following commands:
@@ -125,7 +125,7 @@ It has utilized react linter and you will also see any lint errors in the consol
 
 Builds the app for production to the `build` folder.\
 It correctly bundles React in production mode and optimizes the build for the best performance.
-The build is minified and the filenames include the hashes.
+The build is minified, the filenames include the hashes.
 
 ## License
 Licensed by MIT
