@@ -1,7 +1,7 @@
 const themeColors = {
   red: 'rgb(186, 53, 53)',
   green: 'rgb(7, 158, 88)',
-  blue: 'rgb(8, 71, 189)',
+  blue: 'rgb(1, 75, 226)',
   cyan: 'rgb(7, 122, 149)',
   gold: 'rgb(207, 202, 32)',
   purple: 'rgb(156, 2, 195)',

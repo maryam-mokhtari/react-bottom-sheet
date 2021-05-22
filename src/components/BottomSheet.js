@@ -176,17 +176,19 @@ const BottomSheet = ({
                   onClick={submitClick}
                   text={submit.text || LocaleText().SUBMIT}
                   isDisabled={submit.isInactive}
+                  icon={submit.icon}
+                />
+              }
+              {cancel &&
+                <Button
+                  color={color}
+                  isInvert
+                  onClick={cancelClick}
+                  text={cancel.text || LocaleText().CANCEL}
+                  icon={cancel.icon}
                 />
               }
             </div>
-          }
-          {cancel &&
-            <Button
-              color={color}
-              isInvert
-              onClick={cancelClick}
-              text={cancel.text || LocaleText().CANCEL}
-            />
           }
         </div>
       </div>

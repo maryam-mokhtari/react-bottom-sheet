@@ -1,6 +1,31 @@
 .wallet-wrapper {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding: 50px;
+  padding: 10px;
+}
+
+.wallet-icon {
+  width: 96px;
+  height: 96px;
+  margin: 30px auto;
+}
+
+.wallet-charge-success {
+  background: rgb(1, 75, 226);
+  color: #fff;
+  border-radius: 12px;
+  width: 90%;
+  max-width: 448px;
+  margin: 30px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all .3s ease;
+  padding: 0 16px;
+  height: 0;
+}
+.wallet-charge-success label {
+  color: #fff;
 }

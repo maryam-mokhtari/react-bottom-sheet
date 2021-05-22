@@ -1,10 +1,9 @@
-import loadingIcon from '../assets/images/loading.svg';
+import loadingIcon from '../assets/icons/loading.svg';
 import '../assets/css/button.css';
-import localeText from '../utils/locale.js'
 import themeColors from '../utils/theme';
 
 const Button = ({
-  text, icon, loading, isDisabled, isInvert, onClick, color = "cyan"
+  text, icon, loading, isDisabled, isInvert, onClick, color = "blue"
 }) =>
   <button
     className={`button ${loading ? 'button--loading' : ''} ${isInvert ? `button--invert` : ''} ${isDisabled ? `button--disabled` : ''}`}

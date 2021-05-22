@@ -1,7 +1,7 @@
 import BottomSheet from "../components/BottomSheet";
 import LocaleText from '../utils/locale';
 import walletIcon from '../assets/icons/wallet.svg';
-import submitIcon from '../assets/icons/check.svg';
+import submitIcon from '../assets/icons/done.svg';
 import cancelIcon from '../assets/icons/cancel.svg';
 
 const ConfirmBottomSheet = ({ isOpen, onClose, onSubmit, loading, title, description, }) => (
@@ -12,7 +12,7 @@ const ConfirmBottomSheet = ({ isOpen, onClose, onSubmit, loading, title, descrip
     submit={{
       text: LocaleText().UNDERSTOOD,
       handler: onSubmit,
-      loading,
+      isLoading: loading,
       hasWaitOnLoading: true,
       icon: submitIcon,
     }}

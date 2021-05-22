@@ -4,7 +4,8 @@
   position: relative;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  padding: 0 12px;
   border-radius: 12px;
   cursor: pointer;
   user-select: none;
@@ -16,7 +17,7 @@
 
 .button__icon {
   position: absolute;
-  left: 16px;
+  left: 8px;
   top: auto;
 }
 
@@ -34,3 +35,10 @@
   border-color: #f0f0f0 !important;
   color: #9b9b9b !important;
 }
+
+.button .icon {
+  width: 16px !important;
+  height: 16px !important;
+  margin: auto 4px !important;
+}
+

@@ -19,15 +19,20 @@ const ChargeWallet = () => {
   }
   return (
     <div className="wallet-wrapper">
-      <img className="large-icon" alt="wallet" src={wallet} onClick={openConfirmSheet} />
-      {isSucceeded &&
-        <div className="success">
-          <label className="">
-            {localeText().WALLET_CHARGE}
-          </label>
-          <label>23000 T</label>
-        </div>
-      }
+      <img className="wallet-icon" alt="wallet" src={wallet} onClick={openConfirmSheet} />
+
+      <div
+        className="wallet-charge-success"
+        style={{
+          height: isSucceeded ? 50 : 0, 
+        }}
+      >
+        <label className="">
+          {localeText().WALLET_CHARGE}
+        </label>
+        <label>250000 {localeText().TOMAN}</label>
+      </div>
+
       <ConfirmBottomSheet
         isOpen={isConfirmed}
         onClose={() => setIsConfirmed(false)}

@@ -22,6 +22,10 @@ const text = {
   WALLET_CHARGE: {
     FA: 'شارژ کیف پول',
     EN: '',
+  },
+  TOMAN: {
+    FA: 'تومان',
+    EN: '',
   }
 }
 
